@@ -25,6 +25,7 @@ After going to our checklist above and making sure you backed everything up, we'
 ### Setting up your Mac
 
 If you did all of the above you may now follow these install instructions to setup a new Mac.
+NOTE: script will install Oh My Zsh
 
 1. Update macOS to the latest version with the App Store
 2. Install Xcode from the App Store, open it and accept the license agreement
@@ -41,7 +42,7 @@ If you did all of the above you may now follow these install instructions to set
     git clone git@github.com:gcamp806/dotfiles.git ~/.dotfiles
     ```
 
-6. Run `~/.dotfiles/install.sh` to start the installation
+6. Run `~/.dotfiles/fresh.sh` to start the installation
 7. After your cloud storage is synced with your computer, restore preferences by running `mackup restore`
 8. Restart your computer to finalize the process
 
