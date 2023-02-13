@@ -40,9 +40,9 @@ brew 'wget'
 #brew 'mysql'
 #brew 'nginx'
 #brew 'node'
-brew 'rbenv'
+#brew 'rbenv'
 #brew 'redis'
-brew 'ruby-build'
+#brew 'ruby-build'
 
 # Apps
 #cask 'aerial' # https://github.com/JohnCoates/Aerial
@@ -57,14 +57,15 @@ cask 'barrier' # synergy fork
 cask 'caffeine' # http://lightheadsw.com/caffeine
 cask 'carbon-copy-cloner'
 cask 'clamxav'
-cask 'dbeaver-community'
+#cask 'dbeaver-community'
 #cask 'discord'
 #cask 'docker'
 #cask 'dotnet-sdk'
 #cask 'dropbox'
 cask 'figma'
 cask 'firefox'
-cask 'google-backup-and-sync'
+cask 'github'
+#cask 'google-backup-and-sync'
 cask 'google-chrome'
 cask 'insomnia'
 #cask 'iterm2'
@@ -75,7 +76,7 @@ cask 'logitech-options'
 cask 'logitech-g-hub'
 #cask 'meld'
 cask 'macx-youtube-downloader'
-cask 'microsoft-teams'
+#cask 'microsoft-teams'
 #cask 'sequel-pro' # https://www.sequelpro.com
 cask 'signal'
 #cask 'skype'
@@ -88,9 +89,9 @@ cask 'sublime-text'
 #cask 'virtualbox-extension-pack'
 #cask 'visual-studio'
 #cask 'visual-studio-code'
-cask 'vivaldi'
+#cask 'vivaldi'
 cask 'vlc'
-cask 'zeplin'
+#cask 'zeplin'
 cask 'zoom'
 
 # Quicklook
@@ -121,7 +122,7 @@ cask 'font-roboto'
 #cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Apple Configurator 2', id: 1037126344
+#mas 'Apple Configurator 2', id: 1037126344
 mas 'Bitwarden', id: 1352778147
 mas 'Boop', id: 1518425043
 mas 'DevCleaner for Xcode', id: 1388020431
@@ -130,7 +131,7 @@ mas 'Flycut', id: 442160987
 #mas 'Giphy Capture', id: 668208984
 mas 'Keynote', id: 409183694
 mas 'LanScan', id: 472226235
-mas 'LastPass Password Manager', id: 926036361
+#mas 'LastPass Password Manager', id: 926036361
 mas 'Magnet', id: 441258766
 mas 'Microsoft Remote Desktop', id: 1295203466
 mas 'Numbers', id: 409203825
