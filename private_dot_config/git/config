@@ -1,0 +1,6 @@
+[user]
+	name = Greg Camp
+	email = gregorycamp7@gmail.com
+[alias]
+	hist = log --oneline --graph --decorate
+	info = config --local --get remote.origin.url
