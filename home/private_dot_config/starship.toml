@@ -1,0 +1,88 @@
+command_timeout = 500
+format = """
+$username\
+$shlvl\
+$directory\
+$git_branch\
+$git_state\
+$git_status\
+$git_metrics\
+$dotnet\
+$golang\
+$python\
+$rust\
+$zig\
+$cmd_duration\
+$time\
+$line_break\
+$character"""
+
+[fill]
+symbol = " "
+
+[character]
+success_symbol = "[➜](bold green) "
+error_symbol = "[✗](bold red) "
+
+[directory]
+read_only = " 󰌾"
+truncation_length = 4
+truncation_symbol = ".../"
+truncate_to_repo = false
+
+[dotnet]
+#symbol = "󰨞 "
+symbol = "󰘐 "
+#symbol = "󰖳 "
+format = '[ $symbol($version )]($style)'
+
+[golang]
+symbol = " "
+format = '[$symbol($version )]($style)'
+
+#[python]
+#format = 'via [${symbol}${pyenv_prefix}(${version} )(\($virtualenv\)) ]($style)'
+
+[git_branch]
+symbol = "  "
+style = "bold #e8ec00 inverted"
+format = "[$symbol$branch ]($style) "
+
+[git_state]
+format = '\([$state( $progress_current/$progress_total)]($style)\) '
+
+[git_status]
+#style = "bg:#FCA17D"
+format = '([\[$all_status$ahead_behind\]]($style) )'
+
+[git_metrics]
+disabled = false
+
+#format = '[$all_status$ahead_behind ]($style)'
+#style = "bold italic bright-blue"
+#format = "([⎪$ahead_behind$staged$modified$untracked$renamed$deleted$conflicted$stashed⎥]($style))"
+#conflicted = "[◪◦](italic bright-magenta)"
+#ahead = "[▴│[${count}](bold white)│](italic green)"
+#behind = "[▿│[${count}](bold white)│](italic red)"
+#diverged = "[◇ ▴┤[${ahead_count}](regular white)│▿┤[${behind_count}](regular white)│](italic bright-magenta)"
+#untracked = "[◌◦](italic bright-yellow)"
+#stashed = "[◃◈](italic white)"
+#modified = "[●◦](italic yellow)"
+#staged = "[▪┤[$count](bold white)│](italic bright-cyan)"
+#renamed = "[◎◦](italic bright-blue)"
+#deleted = "[✕](italic red)"
+
+[package]
+disabled = true
+
+[cmd_duration]
+min_time = 500
+format = "took [$duration](bold yellow) "
+
+[time]
+disabled = false
+#format = '[🕙 $time]($style)'
+format = '[ $time]($style)'
+time_format = "%H:%M:%S"
+style = "bold white"
+#style = "bold bg:#8a15e2"
