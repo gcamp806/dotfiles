@@ -82,7 +82,7 @@ format = "took [$duration](bold yellow) "
 [time]
 disabled = false
 #format = '[🕙 $time]($style)'
-format = '[ $time]($style)'
+format = '[  $time]($style)'
 time_format = "%H:%M:%S"
 style = "bold white"
 #style = "bold bg:#8a15e2"
